@@ -28,6 +28,17 @@ public class Account implements java.io.Serializable {
 		//System.out.println("array number: " + this.array_number);
 		return this.array_number;
 	}
+	}
+	
+//This Method Just Prints Out Account Info and returns the Array Number
+	int info(){
+		
+		System.out.println("Account number: " + this.number);
+		System.out.println("Account balance: " + this.balance);
+		System.out.println("Active?: " + this.active);
+		//System.out.println("array number: " + this.array_number);
+		return this.array_number;
+	}
 	
 //This Method Updates the Deposit Balance for This Account
 	void addDeposit(double deposit){
